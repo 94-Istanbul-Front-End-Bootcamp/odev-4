@@ -11,7 +11,7 @@
 
 ### Örnek kod:
 
-```
+```js
     state = {
       comments: [],
       commentValue: "",
@@ -33,7 +33,7 @@
         });
     }
 ```
-/* Burada comment submit aksiyonunu görüyoruz. Tüm state yeni bir object değişkene atanıyor, bu değişken içerisinde istediğimiz değişikliği yapıyoruz ve son durumda bu değiştirilmiş object tüm state içerisine açılıyor. Bu kullanım sayesinde state'i sadece bir kez güncelleyerek re render sayısını azaltmış oluyoruz. */
+ Burada comment submit aksiyonunu görüyoruz. Tüm state yeni bir object değişkene atanıyor, bu değişken içerisinde istediğimiz değişikliği yapıyoruz ve son durumda bu değiştirilmiş object tüm state içerisine açılıyor. Bu kullanım sayesinde state'i sadece bir kez güncelleyerek re render sayısını azaltmış oluyoruz. 
 
 ## Kurallar
 * Başlangıçta hiç yorum yoktur ve bu durumda ekrana "Hiç yorum yok" çıktısı verilir.
